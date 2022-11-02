@@ -2,6 +2,23 @@
 @import "vars";
 @import "reset";
 @import "global";
+.main{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px 0;
+  &__link{
+    font-size: 34px;
+    line-height: 50px;
+    color: #0c21c1;
+  }
+  &__link:visited{
+    color: #0c21c1;
+  }
+}
 .sign-in {
   padding: 21px 0 20px;
   &__inner {
