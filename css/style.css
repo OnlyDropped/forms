@@ -180,6 +180,7 @@ a {
   border-bottom: 2px solid #999;
   padding: 9px 29px;
   outline: none;
+  caret-color: #0c21c1;
 }
 
 .sign-in__input::-webkit-input-placeholder {
@@ -223,27 +224,19 @@ a {
 }
 
 .sign-in__message {
-  background: url("../img/message.svg");
-  background-repeat: no-repeat;
-  background-position: left center;
+  background: url("../img/message.svg") left center no-repeat;
 }
 
 .sign-in__password {
-  background: url("../img/padlock.svg");
-  background-repeat: no-repeat;
-  background-position: left center;
+  background: url("../img/padlock.svg") left center no-repeat;
 }
 
 .sign-in__username {
-  background: url("../img/user.svg");
-  background-repeat: no-repeat;
-  background-position: left center;
+  background: url("../img/user.svg") left center no-repeat;
 }
 
 .sign-in__confirm {
-  background: url("../img/padlock.svg");
-  background-repeat: no-repeat;
-  background-position: left center;
+  background: url("../img/padlock.svg") left center no-repeat;
 }
 
 .sign-in__login {
