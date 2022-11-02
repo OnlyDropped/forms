@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import "vars";
+@import "reset";
+@import "global";
+.sign-in {
+  padding: 21px 0 20px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__wrapper{
+    max-width: 100%;
+    width: 100%;
+  }
+  &__logo{
+    display: inline-block;
+    margin-bottom: 102px;
+  }
+  &__form {
+    max-width: 431px;
+    width: 100%;
+    margin: 0 auto;
+    color: #000;
+  }
+  &__sign-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 22px;
+  }
+  &__span {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__span + .sign-in__span {
+    margin-top: 6px;
+  }
+  &__span--last {
+    margin-bottom: 52px;
+  }
+  &__register {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0c21c1;
+  }
+  &__label {
+    max-width: 100%;
+    width: 100%;
+    display: inline-block;
+    p {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      color: #999;
+    }
+  }
+  &__label + .sign-in__label {
+    margin-top: 49px;
+  }
+  &__input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #999;
+    padding: 9px 29px;
+    outline: none;
+    &::placeholder {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000842;
+    }
+    &:focus {
+      border-color: #000842;
+    }
+  }
+  &__message {
+    background: url("../img/message.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  &__password {
+    background: url("../img/padlock.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  &__username {
+    background: url("../img/user.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  &__confirm {
+    background: url("../img/padlock.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  &__login {
+    display: block;
+    text-align: center;
+    background: #0c21c1;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #fff;
+    padding: 14px 0 13px;
+    margin: 95px 0 39px;
+  }
+  &__continue {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b5b5b5;
+    margin-bottom: 31px;
+    margin: 0 auto 31px;
+  }
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+  }
+  &__content {
+    max-width: 735px;
+    width: 100%;
+    background: #000842;
+    border-radius: 15px;
+    padding: 130px 88px;
+    color: #fff;
+  }
+  &__img {
+    width: 559px;
+    height: 415px;
+    object-fit: cover;
+    margin-bottom: 90px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 4px;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.sign-up{
+  &__register{
+    margin-bottom: 0;
+    margin-top: 58px;
+  }
+  .sign-in__label + .sign-in__label{
+    margin-top: 42px;
+  }
+}
+@import "media";
+@import "log-in";

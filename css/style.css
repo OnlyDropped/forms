@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1429px;
+  margin: 0 auto;
+  padding: 0px 26px;
+}
+
+.sign-in {
+  padding: 21px 0 20px;
+}
+
+.sign-in__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sign-in__wrapper {
+  max-width: 100%;
+  width: 100%;
+}
+
+.sign-in__logo {
+  display: inline-block;
+  margin-bottom: 102px;
+}
+
+.sign-in__form {
+  max-width: 431px;
+  width: 100%;
+  margin: 0 auto;
+  color: #000;
+}
+
+.sign-in__sign-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 22px;
+}
+
+.sign-in__span {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sign-in__span + .sign-in__span {
+  margin-top: 6px;
+}
+
+.sign-in__span--last {
+  margin-bottom: 52px;
+}
+
+.sign-in__register {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0c21c1;
+}
+
+.sign-in__label {
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.sign-in__label p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #999;
+}
+
+.sign-in__label + .sign-in__label {
+  margin-top: 49px;
+}
+
+.sign-in__input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #999;
+  padding: 9px 29px;
+  outline: none;
+}
+
+.sign-in__input::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000842;
+}
+
+.sign-in__input:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000842;
+}
+
+.sign-in__input::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000842;
+}
+
+.sign-in__input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000842;
+}
+
+.sign-in__input:focus {
+  border-color: #000842;
+}
+
+.sign-in__message {
+  background: url("../img/message.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.sign-in__password {
+  background: url("../img/padlock.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.sign-in__username {
+  background: url("../img/user.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.sign-in__confirm {
+  background: url("../img/padlock.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.sign-in__login {
+  display: block;
+  text-align: center;
+  background: #0c21c1;
+  -webkit-box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #fff;
+  padding: 14px 0 13px;
+  margin: 95px 0 39px;
+}
+
+.sign-in__continue {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b5b5b5;
+  margin-bottom: 31px;
+  margin: 0 auto 31px;
+}
+
+.sign-in__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0 20px;
+}
+
+.sign-in__content {
+  max-width: 735px;
+  width: 100%;
+  background: #000842;
+  border-radius: 15px;
+  padding: 130px 88px;
+  color: #fff;
+}
+
+.sign-in__img {
+  width: 559px;
+  height: 415px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 90px;
+}
+
+.sign-in__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 4px;
+}
+
+.sign-in__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.sign-up__register {
+  margin-bottom: 0;
+  margin-top: 58px;
+}
+
+.sign-up .sign-in__label + .sign-in__label {
+  margin-top: 42px;
+}
+
+@media (max-width: 425px) {
+  .sign-in {
+    padding: 18px 0;
+  }
+  .sign-in__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sign-in__content {
+    display: none;
+  }
+  .sign-in__login {
+    margin: 70px 0 39px;
+  }
+  .sign-in__label + .sign-in__label {
+    margin-top: 40px;
+  }
+  .sign-in__input {
+    padding: 11px 29px 7px;
+  }
+  .sign-in__password, .sign-in__confirm {
+    padding: 12px 29px 10px;
+  }
+  .sign-in__password::-webkit-input-placeholder, .sign-in__confirm::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .sign-in__password:-ms-input-placeholder, .sign-in__confirm:-ms-input-placeholder {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .sign-in__password::-ms-input-placeholder, .sign-in__confirm::-ms-input-placeholder {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .sign-in__password::placeholder, .sign-in__confirm::placeholder {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .sign-in__logo {
+    margin-bottom: 26px;
+  }
+  .sign-in__logo img {
+    width: 90px;
+    height: 27px;
+  }
+  .sign-up__register {
+    margin-top: 58px;
+  }
+}
+
+@media (max-width: 375px) {
+  .sign-in__login {
+    margin: 70px 0 39px;
+  }
+  .sign-in__label + .sign-in__label {
+    margin-top: 40px;
+  }
+  .sign-in__logo {
+    margin-bottom: 57px;
+  }
+  .sign-in__login {
+    margin: 95px 0 42px;
+  }
+  .sign-in__social {
+    gap: 0 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .sign-in__logo {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
